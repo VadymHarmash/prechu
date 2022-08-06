@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.header__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__wrapper .header__left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 20px 0;
+}
+.header__wrapper .header__right ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.header__wrapper .header__right ul li a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 20.35px;
+    padding-bottom: 35px;
+}
+.header__wrapper .header__right ul li a:hover{
+    border-bottom: 3px #5094f2 solid;
+    color: #5094f2;
+    font-size: 20.35px;
+}
+.header__wrapper .header__right ul li:not(:last-child){
+    padding-right: 35px;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* MAIN BANNER */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.banner{
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+.banner__wrapper{
+    padding: 35px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.banner__wrapper .banner__left{
+    width: 50%;
+}
+.banner__wrapper .banner__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    width: 50%;
+}
+.banner__wrapper .banner__right h2{
+    font-size: 42.35px;
+    margin: 0;
+}
+.banner__wrapper .banner__right .text{
+    font-size: 26.35px;
+    line-height: 1.5;
+}
+.banner__wrapper .banner__right .button{
+    font-size: 22.35px;
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+    height: 40px;
+    align-items: center;
+    background-color: #5094f2;
+    padding: 0 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* MAIN LOGOS */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.logos__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.logos__wrapper .logos__item{
+    text-align: center;
+}
+.logos__wrapper .logos__item img{
+    margin-bottom: 30px;
+}
+.logos__wrapper .logos__item h4{
+    font-size: 20.35px;
+    color: #5094f2;
+    margin: 0;
+}
+.logos__wrapper .logos__item{
+    width: 27%;
+    font-size: 14.35px;
+    color: #909090;
+    margin: 0;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* MAIN SHOPPING */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.shopping__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.shopping__wrapper h2{
+    font-size: 42.35px;
+    color: #6f7173;
+    margin: 0 0 15px 0;
+}
+.shopping__wrapper .shopping__content{
+    display: flex;
+    justify-content: space-between;
+}
+.shopping__wrapper .shopping__content .shopping__left{
+    padding-top: 25px;
+}
+.shopping__wrapper .shopping__content .shopping__right{
+    width: 50%;
+}
+.shopping__wrapper .shopping__content .shopping__right h3{
+    font-size: 26.35px;
+    color: #6f7173;
+    margin-top: 0;
+}
+.shopping__wrapper .shopping__content .shopping__right p{
+    font-size: 15.35px;
+    color: #909090;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------------------------------------------------------------------------ */
+footer{
+    margin: 35px 0;
+    text-align: center;
+    color: #909090;
+    font-size: 15.35px;
+}
