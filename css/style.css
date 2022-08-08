@@ -36,6 +36,7 @@ header{
 }
 .header__wrapper .header__right ul li{
     margin: 0 auto;
+    position: relative;
 }
 .header__wrapper .header__right ul li a{
     text-decoration: none;
@@ -48,7 +49,32 @@ header{
     color: #5094f2;
     font-size: 20.35px;
 }
-
+.header__wrapper .header__right ul.home__dropdown li,
+.header__wrapper .header__right ul.products__dropdown li,
+.header__wrapper .header__right ul.services__dropdown li,
+.header__wrapper .header__right ul.contact__dropdown li{
+    display: none;
+    position: absolute;
+    top: 59px;
+    background: #12dcdc;
+    width: 100%;
+    text-align: center;
+}
+.header__wrapper .header__right ul.home__dropdown li a,
+.header__wrapper .header__right ul.products__dropdown li a,
+.header__wrapper .header__right ul.services__dropdown li a,
+.header__wrapper .header__right ul.contact__dropdown li a{
+    padding: 10px;
+    border-bottom: none;
+}
+.header__wrapper .header__right ul li:hover ul.home__dropdown li,
+.header__wrapper .header__right ul li:hover ul.products__dropdown li,
+.header__wrapper .header__right ul li:hover ul.services__dropdown li,
+.header__wrapper .header__right ul li:hover ul.contact__dropdown li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* ------------------------------------------------------------------------------------------------------------------ */
 /* MAIN BANNER */
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -127,7 +153,7 @@ header{
 /* MAIN SHOPPING */
 /* ------------------------------------------------------------------------------------------------------------------ */
 .shopping{
-    margin-bottom: 60px;    
+    margin-bottom: 60px;
 }
 .shopping__wrapper{
     max-width: 1024px;
