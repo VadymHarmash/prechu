@@ -26,6 +26,10 @@
         font-size: 14px;
         padding: 0 15px;
     }
+    .header__wrapper .header__right ul li a:hover{
+        font-size: 14px;
+        border: none;
+    }
 }
 @media (max-width: 576px) {
     .container{
