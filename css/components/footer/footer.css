@@ -1,0 +1,9 @@
+footer{
+    margin: 35px 0;
+    text-align: center;
+    color: #909090;
+    font-size: 15.35px;
+}
+footer .footer__wrapper p{
+    margin: 0;
+}

@@ -1,0 +1,102 @@
+.banner{
+    background-image: url("../../../images/background.png");
+    background-size: cover;
+    padding: 35px 0 0 0;
+    margin: 0 0 60px 0;
+}
+.banner__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner__wrapper .banner__left{
+    width: 50%;
+}
+.banner__wrapper .banner__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    width: 50%;
+}
+.banner__wrapper .banner__right h2{
+    font-size: 42.35px;
+    margin: 0;
+}
+.banner__wrapper .banner__right .text{
+    font-size: 26.35px;
+    line-height: 1.5;
+}
+.banner__wrapper .banner__right .button{
+    font-size: 22.35px;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+    background-color: #5094f2;
+    padding: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.logos{
+    margin-bottom: 100px;
+}
+.logos__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logos__wrapper .logos__item{
+    text-align: center;
+}
+.logos__wrapper .logos__item img{
+    margin-bottom: 30px;
+}
+.logos__wrapper .logos__item h4{
+    font-size: 20.35px;
+    color: #5094f2;
+    margin: 0;
+}
+.logos__wrapper .logos__item{
+    width: 27%;
+    font-size: 14.35px;
+    color: #909090;
+    margin: 0;
+}
+.shopping{
+    margin-bottom: 60px;
+}
+.shopping__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.shopping__wrapper h2{
+    font-size: 42.35px;
+    color: #6f7173;
+    margin: 0 0 15px 0;
+}
+.shopping__wrapper .shopping__content{
+    display: flex;
+    justify-content: space-between;
+}
+.shopping__wrapper .shopping__content .shopping__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping__wrapper .shopping__content .shopping__right{
+    width: 50%;
+}
+.shopping__wrapper .shopping__content .shopping__right h3{
+    font-size: 26.35px;
+    color: #6f7173;
+    margin-top: 0;
+}
+.shopping__wrapper .shopping__content .shopping__right p{
+    font-size: 15.35px;
+    color: #909090;
+    line-height: 2.3;
+}
