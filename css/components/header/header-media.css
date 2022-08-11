@@ -1,1 +1,35 @@
-/* HEADER ADAPTAION IS SOON */
+@media (max-width: 1250px ) {
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 767px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .container{
+        max-width: 567px;
+    }
+    .header__wrapper{
+        justify-content: center;
+        width: 100%;
+    }
+    .header__wrapper .header__left{
+        display: none;
+    }
+    .header__wrapper .header__right nav ul li a{
+        font-size: 14px;
+        padding: 0 15px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}

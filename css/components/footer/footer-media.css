@@ -1,1 +1,16 @@
-/* FOOTER ADAPTAION IS SOON */
+@media (max-width: 1250px ) {
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 767px;
+    }
+    footer{
+        margin: 20px 0;
+        font-size: 12px;
+    }
+}

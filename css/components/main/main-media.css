@@ -1,1 +1,105 @@
-/* MAIN ADAPTAION IS SOON */
+@media (max-width: 1250px ) {
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 767px;
+    }
+    .banner__wrapper .banner__right .button{
+        width: 33%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .container{
+        max-width: 567px;
+    }
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /* BANNER */
+    /* -------------------------------------------------------------------------------------------------------------- */
+    .banner{
+        padding-bottom: 30px;
+    }
+    .banner__wrapper{
+        justify-content: center;
+        align-items: center;
+    }
+    .banner__wrapper .banner__left{
+        display: none;
+    }
+    .banner__wrapper .banner__right{
+        text-align: center;
+    }
+    .banner__wrapper .banner__right h2{
+        font-size: 34px;
+    }
+    .banner__wrapper .banner__right .text{
+        font-size: 16px;
+    }
+    .banner__wrapper .banner__right .button{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /* LOGOS */
+    /* -------------------------------------------------------------------------------------------------------------- */
+    .logos__wrapper{
+        flex-wrap: wrap;
+    }
+    .logos__wrapper .logos__item{
+        width: 100%;
+    }
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /* SHOPPING */
+    /* -------------------------------------------------------------------------------------------------------------- */
+    .shopping__wrapper{
+        text-align: center;
+    }
+    .shopping__wrapper h2{
+        font-size: 36px;
+    }
+    .shopping__wrapper .shopping__content{
+        justify-content: center;
+        padding: 25px 0 0 0;
+    }
+    .shopping__wrapper .shopping__content .shopping__left{
+        display: none;
+    }
+    .shopping__wrapper .shopping__content .shopping__right{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .shopping__wrapper .shopping__content .shopping__right h3{
+        font-size: 24px;
+    }
+    .shopping__wrapper .shopping__content .shopping__right p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 488px) {
+    .banner__wrapper .banner__right .button{
+        width: 75%;
+    }
+    .shopping__wrapper h2{
+        font-size: 30px;
+    }
+    .shopping__wrapper .shopping__content .shopping__right h3{
+        font-size: 20px;
+    }
+    .shopping__wrapper .shopping__content .shopping__right p{
+        font-size: 12px;
+    }
+}
